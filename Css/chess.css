@@ -1,0 +1,169 @@
+body {
+    font-family: Arial;
+}
+
+.letter_column {
+    display: -webkit-inline-box;
+    margin-left: 15px;
+}
+
+.number_column {
+    float: left;
+    height: 75px;
+    text-align: center;
+    width: 15px;
+    line-height: 75px;
+}
+
+.number_box {
+
+}
+
+.letter_box {
+    width: 75px;
+    text-align: center;
+}
+
+#game_container {
+    display: inline-block;
+    margin: auto;
+}
+
+#game_canvas {
+    float: left;
+}
+
+#innerBody {
+    display: -webkit-inline-box;
+}
+
+#chessBoardContainer {
+
+}
+
+#gameControlPanel {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 4px 1px #666;
+    border-radius: 5px;
+    background-color: chocolate;
+    text-align: center;
+    width: 500px;
+}
+
+#game_info_container {
+    margin: 15px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    max-width: 450px;
+    box-shadow: 3px 3px 4px 1px #666;
+    display: inline-block;
+}
+
+#game_info {
+
+}
+
+#last_move {
+
+}
+
+#loader_container {
+    display: block;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+#loader {
+    margin: auto;
+}
+
+#game_info_inner_container {
+    margin-top: 3px;
+    margin-left: 10px;
+    float: left;
+}
+
+.ButtonContainer {
+    margin: 10px;
+}
+
+#historyContainer {
+    margin: 10px;
+    text-align: left;
+}
+
+#historyContainer a {
+    text-align: left;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+#showHistoryButton {
+
+}
+
+#historyBoard {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    overflow: overlay;
+    height: 185px;
+}
+
+.sexy_line {
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+.chessButton {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.chessButton:hover {
+    text-decoration: none;
+}
+
+.chessButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.testest {
+    color: #deb887;
+    color: #d2691e;
+    color: #ffff00;
+    color: #00ff00;
+}
+
+.dwa {
+    color: #ffce9e;
+    color: #d18b47;
+
+    /*selected*/
+    color: #ffe64f;
+    color: #e8c524;
+
+    /*available*/
+    color: #7fe74f;
+    color: #68c523;
+}
